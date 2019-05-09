@@ -31,6 +31,7 @@ DEBUG = True
 # python manage.py runserver 0.0.0.0:8000
 # In order to access, server IP needs to be
 # added to the ALLOWED_HOSTS
+# localhost doesn't work, but I'm leaving it
 
 ALLOWED_HOSTS = [
     '192.168.1.115',
