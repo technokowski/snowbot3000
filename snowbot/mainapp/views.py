@@ -23,7 +23,7 @@ wisdom_num = len(Wisdom.objects.all())
 # Instance of custom Speaker class
 speak = Speaker()
 
-# Main view that displays the 6 panel content to visitors
+# Main view that displays the 6 panel content to visitors.
 def index(request):
     speak.speak("beep")
     return render(request, 'mainapp/index.html')
