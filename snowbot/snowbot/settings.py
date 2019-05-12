@@ -30,13 +30,13 @@ DEBUG = True
 # If planning to run on LAN, use:
 # python manage.py runserver 0.0.0.0:8000
 # In order to access, server IP needs to be
-# added to the ALLOWED_HOSTS
-# localhost doesn't work, but I'm leaving it
+# added to the ALLOWED_HOSTS and remove "*"
+# You can leave it, but it's not safe
 
 ALLOWED_HOSTS = [
-    '192.168.1.115',
-    '192.168.1.121',
+    '127.0.0.1',
     'localhost',
+    '*',
 ]
 
 
