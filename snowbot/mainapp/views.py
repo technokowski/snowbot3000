@@ -25,7 +25,8 @@ speak = Speaker()
 
 # Main view that displays the 6 panel content to visitors.
 def index(request):
-    os.system('afplay static/audio/56k.wav')
+    # os.system('afplay static/audio/56k.wav')
+    speak.say('Welcome, I am ready.')
     return render(request, 'mainapp/index.html')
 
 # Secondary "secret" page that allows input without the premade name responses
