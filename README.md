@@ -32,16 +32,46 @@ pytz==2019.1
 ```
 That's it! Every browser available has been tested. 
 
-Installing
+Installing python3
 ===
-A step by step series of examples that tell you how to get a development env running
+In order to install SnowBot-3000, it's recommended you use a virtual environment. If you already know how to set that up, jump to the "Installing SnowBot-3000" section further on. 
 
-Say what the step will be
+* First thing is to make sure you have the [latest Python installation](https://www.python.org/), which is currently 3.7.3.
+* Run the package and follow the steps to complete the installation.
+* Once finished, open **Terminal** and run:
 ```
-Give the example
+python3 --version
 ```
-And repeat
+This should produce your current python3 version. Verify that it's at least:
 ```
-until finished
+Python 3.7.3
 ```
-End with an example of getting some data out of the system or using it for a little demo
+Installing pip3
+===
+* Securely download the get-pip.py file from this [link](https://pip.pypa.io/en/stable/installing/)
+* From the directory where you downloaded the file, run the following command in Terminal:
+```
+python3 get-pip.py
+```
+If all goes well, verify the installation of **pip3** by running the following in Terminal:
+```
+which pip3
+```
+This should return the install location of **pip3**. You are now ready to setup a virtual environment.
+
+Creating a Virtual Environment
+===
+Creation of [virtual environments](https://docs.python.org/3/library/venv.html#venv-def) is done by executing the command `venv`
+```
+python3 -m venv venv_snowbot
+```
+* You can name your `venv` anything you like; `venv_snowbot` is just a suggestion
+
+This creates a `venv` in your current working directory. Next you need to activate by running:
+```
+source venv/bin/activate
+```
+You should now see `(venv_snowbot)` on your terminal line. Congratulations — you are now ready to install **Django**!
+
+
+
