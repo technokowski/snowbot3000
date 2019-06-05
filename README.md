@@ -10,7 +10,7 @@ Codebase for SnowBot-3000 interactive-friend web project
 What is SnowBot-3000? 
 ===
 
-SnowBot-3000 is a robot made of e-waste, mostly comprised of 2012 13" Macbook Pro bottom-cases. It utilizes the OSX/macOS Speak Synthesis Manager to convert text to speech. It features a Macbook Pro as the brain, running macOS Mojave. The codebase is pure Python 3.7, the Django Web-Framework, with a little Javascript/ajax used for asychronus server requests. It is meant to run locally, with the main index page displayed on an iPad. [Click here](https://vimeo.com/user99192489/review/339687763/4b8cda3493) to see an example of it's operation in action. 
+SnowBot-3000 is a robot made of e-waste, mostly comprised of 2012 13" Macbook Pro bottom-cases. It utilizes the OSX/macOS Speak Synthesis Manager to convert text to speech. It features a Macbook Pro as the brain, running macOS Mojave. The codebase is pure Python 3.7, the Django Web-Framework, with a little Javascript/ajax used for asychronus server requests. It is meant to run locally, with the main index page displayed on an iPad. [Click here](https://vimeo.com/339687763) to see an example of it's operation in action. 
 
 It shreds paper (snow), but this project focuses on the code (brain). It has been featured at several K-8 STEM school sites, where students had the ability to interact with it. SnowBot-3000 is your friend; beyond that, it's a passion project.
 
