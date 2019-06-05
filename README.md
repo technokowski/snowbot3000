@@ -95,6 +95,10 @@ Setting Up SnowBot-3000
 In order to get SnowBot-3000 up and running, theres a few things we need to do first. 
 
 * From within the **snowbot3000-master** folder, navigate to the **snowbot** directory – you should see a **manage.py** file.
+* If you're not sure how to do this, just type the following in **Terminal**:
+```
+cd ~/Downloads/snowbot3000-master/snowbot/
+```
 * Run the following from **Terminal**:
 ```
 python manage.py runserver 0.0.0.0:8000
@@ -103,7 +107,6 @@ If everthing is setup correctly, you should see the following output:
 ```
 Django version 1.11.17, using settings 'snowbot.settings'
 Starting development server at http://0.0.0.0:8000/
-Quit the server with CONTROL-C.
 ```
 Now you to need verify that you can actually see the interface. 
 * Open up your web-browser of choice and enter the url **localhost:8000**.
