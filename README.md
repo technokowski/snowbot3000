@@ -76,6 +76,10 @@ You should now see `(venv_snowbot)` on your terminal line. Congratulations — y
 Installing Django
 ===
 * Download the SnowBot-3000 project, unzip, then navigate to the **snowbot3000-master** folder in **Terminal** – you should see a **requirements.txt** file contained within.
+* If you're not sure how to do this, just type the following in **Terminal**:
+```
+cd ~/Downloads/snowbot3000-master/
+```
 
 *This project was built using Django 1.11.17, but it'll probably work with the latest version. However, it's recommended that you install this version just to be certain it works.* 
 
