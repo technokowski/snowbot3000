@@ -75,8 +75,11 @@ You should now see `(venv_snowbot)` on your terminal line. Congratulations — y
 
 Installing Django
 ===
-After you've downloaded the SnowBot-3000 project, open the zip file and navigate to the directory containing the 'requirements.txt' file using Terminal.
-This project was built using Django 1.11.17, but it'll probably work with the latest version. However, it's recommended that you install this version just to be certain it works. The easiest way to do that is to run the following from Terminal:
+* Download the SnowBot-3000 project, unzip, then navigate to the **snowbot3000-master** folder in **Terminal** – you should see a **requirements.txt** file contained within.
+
+*This project was built using Django 1.11.17, but it'll probably work with the latest version. However, it's recommended that you install this version just to be certain it works.* 
+
+* Run the following from **Terminal**:
 ```
 pip install -r requirements.txt
 ```
@@ -84,6 +87,49 @@ If no errors are present, then you've successfully installed everything you need
 
 Setting Up SnowBot-3000
 ===
+
+In order to get SnowBot-3000 up and running, theres a few things we need to do first. 
+
+* From within the **snowbot3000-master** folder, navigate to the **snowbot** directory – you should see a **manage.py** file.
+* Run the following from **Terminal**:
+```
+python manage.py runserver 0.0.0.0:8000
+```
+If everthing is setup correctly, you should see the following output:
+```
+Django version 1.11.17, using settings 'snowbot.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+```
+Now you to need verify that you can actually see the interface. 
+* Open up your web-browser of choice and enter the url **localhost:8000**.
+* Additionally, you can enter the IP address of your computer, followed by **:8000**. ex: **192.168.1.3:8000**
+
+You should see the iPad Kiosk interface, and be able to click the icons and hear the output. If so, you've successfully setup SnowBot-3000 – Great Job!
+
+Visiting SnowBot-3000 from Within Your Network
+===
+Now that you've got SnowBot-3000 up and running, you need to be able to view it from other devices – this is the best part!
+* Obtain the IP address of your computer (if you navigated to SnowBot-3000 in your browser by IP, you already have this)
+* From a web-browser on a device connected to the same network as your computer, type your IP address followed by **:8000**. ex: **192.168.1.3:8000**  
+
+You should see the same iPad Kiosk view as you did on your computer. If so, you've successfully setup SnowBot-3000 on your local network and are ready to use it – Awesome Job!!
+
+Using Django Admin
+===
+One of the coolest features of SnowBot-3000 is the Django Admin panel, where you can add, delete, and update stock SnowBot-3000 phrases. As a default, the project already has a working SQLite database, so there's no need to create one. You can if you want, but the current one already has a few stock phrases that you'll lose if you delete it and start fresh. 
+* From your computer (the one hosting SnowBot-3000), navigate to **localhost:8000/admin**
+* The admin 'username' and 'password' can be found in **admin.py** file located in **snowbot/mainapp/admin.py**. 
+
+Once logged in, you'll see three categories under 'MAINAPP': 'Jokes', 'Sings', 'Wisdoms'. 
+Here you can add, delete, or change any of the entries.
+
+Now you are pretty much set, and can bend SnowBot-3000 to your liking! 
+
+A quick note: Everytime you add a phrase to any of the categories, SnowBot-3000 will speak the newest entry. After that, it goes back to selecting a random phrase everytime the corresponding icon is selected in iPad Kiosk view. The more phrases you add, the more random the selections become, so I suggest creating many entries. Have fun with SnowBot-3000, and please don't abuse it's power.
+
+Enjoy!!
+---
 
 
 
