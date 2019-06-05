@@ -34,7 +34,7 @@ That's it! Every browser available has been tested.
 
 Installing python3
 ===
-In order to install SnowBot-3000, it's recommended you use a virtual environment. If you already know how to set that up, jump to the "Installing SnowBot-3000" section further on. 
+In order to install SnowBot-3000, it's recommended you use a virtual environment. If you already know how to set that up, jump to the "Setting Up SnowBot-3000" section further on. 
 
 * First thing is to make sure you have the [latest Python installation](https://www.python.org/), which is currently 3.7.3.
 * Run the package and follow the steps to complete the installation.
@@ -72,6 +72,20 @@ This creates a `venv` in your current working directory. Next you need to activa
 source venv/bin/activate
 ```
 You should now see `(venv_snowbot)` on your terminal line. Congratulations — you are now ready to install **Django**!
+
+Installing Django
+===
+After you've downloaded the SnowBot-3000 project, open the zip file and navigate to the directory containing the 'requirements.txt' file using Terminal.
+This project was built using Django 1.11.17, but it'll probably work with the latest version. However, it's recommended that you install this version just to be certain it works. The easiest way to do that is to run the following from Terminal:
+```
+pip install -r requirements.txt
+```
+If no errors are present, then you've successfully installed everything you need to get SnowBot-3000 up and running. Let's do that now!
+
+Setting Up SnowBot-3000
+===
+
+
 
 
 
