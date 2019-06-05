@@ -69,7 +69,7 @@ python3 -m venv venv_snowbot
 
 This creates a `venv` in your current working directory. Next you need to activate by running:
 ```
-source venv/bin/activate
+source venv_snowbot/bin/activate
 ```
 You should now see `(venv_snowbot)` on your terminal line. Congratulations — you are now ready to install **Django**!
 
